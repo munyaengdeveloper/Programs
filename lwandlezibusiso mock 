@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lwandle Zibusiso Projects</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+
+  <!-- Hero Section -->
+  <header class="bg-green-700 text-white py-16">
+    <div class="container mx-auto text-center px-4">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Lwandle Zibusiso Projects</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto">Since 2008, we’ve proudly served Cape Town with expert construction, renovations, plumbing, electrical work, landscaping, and more — all delivered by our experienced and dedicated team.</p>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Construction & Renovations</h3>
+          <p>Expert building and home improvement solutions.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Plumbing & Electrical</h3>
+          <p>Certified plumbing and wiring by qualified professionals.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Painting & Tiling</h3>
+          <p>Interior and exterior finishes with precision and style.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Roofing & Ceilings</h3>
+          <p>Roof installations, repairs, and modern ceiling fittings.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Welding & Kitchen Fittings</h3>
+          <p>Custom steel work and beautiful fitted kitchens.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold mb-2">Gardening & Landscaping</h3>
+          <p>Transform your outdoors into a green paradise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-green-50 py-12">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">About Us</h2>
+      <p class="max-w-3xl mx-auto text-lg">With over 15 years of experience, Lwandle Zibusiso Projects delivers quality and timely project execution. Our mission is to build trust and satisfaction through professionalism, skill, and reliability across all services we provide in and around Cape Town.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Client Feedback</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <p>"Very professional team! They renovated my kitchen beautifully and stayed within budget. Highly recommended!"</p>
+          <p class="mt-2 font-semibold">– Nomsa M., Kuils River</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <p>"Reliable and quick. Our plumbing issues were fixed the same day. Great service!"</p>
+          <p class="mt-2 font-semibold">– Sipho D., Mitchells Plain</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <p>"They completely transformed our backyard with paving and landscaping. We love the new look!"</p>
+          <p class="mt-2 font-semibold">– Asanda L., Khayelitsha</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow-md">
+          <p>"Professionalism and attention to detail from start to finish. We’re very happy with the tiling job." </p>
+          <p class="mt-2 font-semibold">– Thabo K., Bellville</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-12 bg-green-700 text-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
+      <form class="max-w-2xl mx-auto space-y-4">
+        <input type="text" placeholder="Full Name" class="w-full p-3 rounded bg-white text-gray-900" required />
+        <input type="email" placeholder="Email Address" class="w-full p-3 rounded bg-white text-gray-900" required />
+        <textarea placeholder="Your Message" class="w-full p-3 rounded bg-white text-gray-900 h-32" required></textarea>
+        <button type="submit" class="w-full bg-white text-green-700 font-bold py-3 rounded hover:bg-gray-200">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 py-6 text-center">
+    <p>Lwandle Zibusiso Projects © 2025 | Cape Town | Call: 060 123 4567 | Email: info@lwandleprojects.co.za</p>
+  </footer>
+
+</body>
+</html>
